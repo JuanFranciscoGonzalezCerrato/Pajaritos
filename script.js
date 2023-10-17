@@ -9,7 +9,7 @@ function lluviaDePajaros() {
 	document.querySelector("body").appendChild(pajarito);
 	setTimeout(() => {
 		pajarito.remove();
-	}, 5000);
+	}, 10000);
 }
 
 setInterval(lluviaDePajaros, 1000);
